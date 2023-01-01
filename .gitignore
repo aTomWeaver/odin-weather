@@ -103,5 +103,5 @@ dist
 # TernJS port file
 .tern-port
 
-# Weather key
-weatherKey.json
+# assignment
+assignment.md
