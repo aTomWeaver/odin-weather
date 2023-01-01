@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.ctr * {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.ctr {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60vw;
+  height: 100vh;
+  justify-content: space-evenly;
+}
+
+.temp-and-condition-ctr {
+  display: flex;
+}
+
+.basic-info {
+  height: 100px;
+  width: 100px;
+}
+
+.condition-ctr {
+  display: flex;
+  flex-direction: column;
+}
+
+.condition-icon {
+  flex-grow: 7
+}
+
+.condition-text {
+  flex-grow: 1;
+}
+
+.details {
+  height: 20vh;
+}
+
+.details-item {
+  padding: 3px;
+}
