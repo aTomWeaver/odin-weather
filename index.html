@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script defer src="app.js"></script>
-  <link rel="stylesheet" href="style.css">
-  <title>Odin Weather</title>
-</head>
-<body>
-  <div class="ctr">
-    <form>
-      <input type="text" name="loc" id="loc" placeholder="location">
-      <button id="get-weather">Get Weather</button>
-    </form>
-    <div class="weather-info">
-      <div class="temp-and-condition-ctr">
-        <div class="basic-info"></div>
-        <div class="basic-info condition-ctr">
-          <div class="condition-icon"></div>
-          <div class="condition-text">Clear</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Odin Weather</title>
+  </head>
+  <body>
+    <div class="ctr">
+      <form>
+        <input type="text" name="loc" id="loc" placeholder="location" />
+        <button id="get-weather">Get Weather</button>
+      </form>
+      <div class="weather-info">
+        <div class="temp-and-condition-ctr">
+          <div class="basic-info temp-ctr"></div>
+          <div class="basic-info condition-ctr">
+            <div class="condition-icon"></div>
+            <p class="condition-text">Clear</p>
+          </div>
+        </div>
+        <div class="details">
+          <div class="details-item temp-high">High:</div>
+          <div class="details-item temp-low">Low:</div>
+          <div class="details-item humidity">Humidity:</div>
         </div>
       </div>
-      <div class="details">
-        <div class="details-item">High: </div>
-        <div class="details-item">Low: </div>
-        <div class="details-item">Humidity:</div>
-      </div>
     </div>
-  </div>
-</body>
+    <!-- React -->
+    <script
+      src="https://unpkg.com/react@18/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <!-- React -->
+  </body>
 </html>

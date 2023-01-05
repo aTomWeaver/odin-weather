@@ -42,7 +42,7 @@ body {
 }
 
 .condition-icon {
-  flex-grow: 7
+  flex-grow: 10;
 }
 
 .condition-text {
